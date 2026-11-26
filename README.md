@@ -1,6 +1,6 @@
 # StrataDocs AI — Cloud-Native Multimodal RAG & Agentic Document Workspace on AWS
 
-![AWS Architecture](docs/aws_architecture.png)
+## AWS Architecture
 
 **StrataDocs AI** is a stateless, self-healing SaaS document intelligence platform deployed on **Amazon Web Services (`ap-south-1`)**. It ingests native PDFs, scanned documents, handwritten notes (images), and Word files (`.docx`), indexes 768-dimensional vector embeddings into **PostgreSQL 16 (`pgvector`) on Amazon EBS**, stores raw and generated artifacts privately in **Amazon S3** via **IAM Instance Profiles**, and serves real-time semantic Q&A and downloadable CSV/PDF reports behind an **Application Load Balancer (ALB)** and **Auto Scaling Group (ASG)**.
 
